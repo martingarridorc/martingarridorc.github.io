@@ -1,0 +1,75 @@
+baseURL = "https://martingarridorc.github.io/"
+title = "MGRC"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+
+[params]
+author = "Martin Garrido Rodriguez-Cordoba"
+description = "Martin Garrido Rodriguez-Cordoba website"
+keywords = "computational biology, omics data, bioinformatics"
+info = ["Computational Biologist", "Postdoctoral Fellow at Heidelberg University and EMBL"]
+avatarURL = "images/profile.jpg"
+dateFormat = "2022-07-01"
+since = 2022
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+favicon_16 = "images/favicon-16x16.png"
+favicon_32 = "images/favicon-32x32.png"
+touchIcon = "images/apple-touch-icon.png"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "ORCID"
+icon = "fa fa-2x fa-orcid"
+weight = 1
+url = "https://orcid.org/0000-0003-4125-5643"
+
+[[params.social]]
+name = "Google Scholar"
+icon = "fa fa-2x fa-book"
+weight = 2
+url = "https://scholar.google.com/citations?user=UAg2BkUAAAAJ&hl=en"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 3
+url = "https://github.com/martingarridorc/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/martingarridorc/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-2x fa-twitter"
+weight = 5
+url = "https://twitter.com/martingarridorc/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About me"
+weight = 1
+url = "about/"
